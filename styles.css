@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap');
+*{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+body{
+    background-color: rgb(18, 18, 18);
+    position: absolute;
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 800px;
+    margin-left: 20px ;
+    
+
+}
+.navigation{
+    display: flex;
+    width: 250px;
+    justify-content: space-around;
+    
+}
+.logo{
+    font-weight:700 ;
+    font-size: 20px;
+}
+.nav{
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 200;            
+}
+.nav:hover{
+    text-decoration: underline rgb(244, 195, 35) 1px;      
+}
+
+.home{
+    margin-top: 5%;
+    
+}
+.heading{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: 600;            
+}
+.image1{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+.image{
+    width: 100%;
+    max-width: 500px;
+    margin-top:10%
+    align-self: center;
+}
+.down{
+    margin-top: 5%;
+    
+}
+.menu::hover{
+    color: black;
+}
+.navi:hover{
+    pointer-events: fill;
+}
+.button1{
+    background-color: rgb(222, 171, 95);
+    padding: 3px 8px;
+    border: none;
+    color: black;
+    font-size: 10px;
+    margin-top: 01%;
+}
+.story{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+
+.about{
+    font-size: 12px;
+    max-width: 400px;
+    
+}
+.STR{
+    text-align: top;
+}
+.imgstory{
+    width: 50%;
+    height: 50%;
+    text-align: left;
+}
+.button2{
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+.STR2{
+    font-size: 30px;
+    max-width: 300px;
+}
+.story2{
+    margin-top: 5%;
+    min-height: 300px;
+}
+.product-head{
+    text-align: left;
+    align-self: flex-start;
+    margin-left: 5%;
+}
+.product{
+    border: solid;
+    border-color: rgb(222, 171, 95);
+    border-radius: 4px;
+    border-width: 2px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 280px;
+    width: 180px;
+    justify-content: space-around;
+    position: relative;
+    margin-bottom:40px ;
+}
+p{
+    margin: 5px;
+    font-size: 12px;
+}
+.product-title{
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.product-thumb{
+    height: 60px;
+    position: absolute;
+    top: -30px;
+}
+.product-grid{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 600px;
+
+
+}
+.line{
+    color:rgb(18, 18, 18);
+    text-decoration: underline rgb(222, 171, 95);
+}
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutus .head{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.aboutus .head1{
+    color: rgb(222, 171, 95);
+    
+
+}
+.aboutus1{
+    font-size: 11px;
+    max-width: 250px;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    max-width: 600px;
+
+}
+
+
+.margin-top{
+    margin-top: 03%;
+}
+button:active{
+    cursor: pointer;
+    background-color:rgb(162, 125, 70) ;
+}
+.STR2{
+    text-align: left;
+}
+@media only screen and (max-width: 600px) {
+    .story{
+        flex-direction: column;
+    }
+    .product-grid{
+        flex-wrap: wrap;
+    }
+    .story2{
+        flex-direction: column-reverse;
+        margin-top: 100px;
+    }
+    .story{
+        margin-top: 100px;
+    }
+}
